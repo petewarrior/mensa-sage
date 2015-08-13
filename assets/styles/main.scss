@@ -1,0 +1,27 @@
+// How to get started using Sass instead of Less:
+//
+// 1  Remove Bootstrap for Less: `bower uninstall bootstrap --save`
+// 2. Install Bootstrap for Sass: `bower install bootstrap-sass-official --save`
+// 3. Rename this file to `main.scss` and remove `main.less`
+// 4. Rename `editor-style.less` to `editor-style.scss`
+// 5. Update the `assets/manifest.json` styles dependencies from `.less` to `.scss`
+//
+// Feel free to remove this file if you're using Less
+
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "common/_colors";
+@import "common/_mixins";
+@import "common/_variables";
+@import "layouts/_header";
+@import "layouts/_footer";
+
+.frontpageSlider {
+  .sow-slider-image-wrapper > img {
+	max-height: 400px;
+	width: auto !important;
+	margin: 0 auto;
+  }
+}

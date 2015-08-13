@@ -1,0 +1,26 @@
+.navbar-nav {
+	> li > a {
+		@media (min-width: 768px) {
+			line-height: 30px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+}
+
+.navbar-default {
+	background-color: white;
+	border-color: white;
+	text-transform: uppercase;
+
+
+	.navbar-brand {
+		height: 70px;
+		padding: 10px;
+		> img {
+			max-height: 100%;
+    		max-width: 100%;
+		}
+	}
+}
+

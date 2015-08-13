@@ -1,0 +1,15 @@
+footer {
+	color: white;
+	
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,a00007+100 */
+	@include gradient-vertical($color-primary-0, $color-primary-4);
+
+	a {
+		color: $color-secondary-2-3;
+	}
+
+	.widget {
+		margin: 20px 10px;
+	}
+}
