@@ -1,12 +1,12 @@
 {
-  "name": "sage",
-  "version": "8.1.0",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "name": "mensa-sage",
+  "version": "0.0.3",
+  "author": "Arya Antaputra <arya@petewarrior.com>",
+  "homepage": "https://petewarrior.com/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
+    "url": "git://github.com/petewarrior/mensa-sage.git"
   },
   "bugs": {
     "url": "https://github.com/roots/sage/issues"
