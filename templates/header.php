@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
+      <a class="navbar-brand" href="<?php echo home_url(); ?>">
         <img alt="Mensa Indonesia" src="<?php echo get_template_directory_uri(); ?>/dist/images/mensalogo-600px.png">
       </a>
     </div>
