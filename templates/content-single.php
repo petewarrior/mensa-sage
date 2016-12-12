@@ -6,8 +6,8 @@ if(is_active_sidebar( 'sidebar-primary' )) {
 }
 ?>
 
-<div class="row">
-  <div class="col-md-10 col-sm-12 <?php if($active_sidebar == false) echo 'col-md-offset-1' ?>">
+<!-- <div class="row"> -->
+  <div class="col-sm-9 col-xs-12 <?php if(false) echo 'col-sm-offset-1' ?>">
     <?php while (have_posts()) : the_post(); ?>
       <article <?php post_class(); ?>>
         <header>
@@ -30,11 +30,11 @@ if(is_active_sidebar( 'sidebar-primary' )) {
       </article>
     <?php endwhile; ?>
   </div>
-  <?php if ( $active_sidebar == true ) : ?>
-  <div class="col-md-2">
+  <?php if ( false && $active_sidebar == true ) : ?>
+  <div class="col-md-3">
     <ul id="sidebar">
-      <?php dynamic_sidebar( 'left-sidebar' ); ?>
+      <?php dynamic_sidebar( 'sidebar-primary' ); ?>
     </ul>
   </div>
   <?php endif; ?>
-</div>
+<!-- </div> -->
