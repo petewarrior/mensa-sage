@@ -30,3 +30,9 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+function my_eme_add_currencies($currencies){
+	$currencies['IDR'] = 'Indonesian Rupiah';
+	return $currencies;
+}
+add_filter('eme_add_currencies','my_eme_add_currencies');
