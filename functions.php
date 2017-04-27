@@ -54,7 +54,7 @@ add_filter('eme_add_currencies','my_eme_add_currencies');
  * Adds Costa Rican Colon currency to your Give settings
  */
 add_filter('give_currencies', 'give_add_idr_currency');
-function add_costarican_currency($currencies) {
+function give_add_idr_currency($currencies) {
     $currencies['IDR'] = __( 'Indonesian Rupiah (Rp)', 'give' );
     return $currencies;
 }
