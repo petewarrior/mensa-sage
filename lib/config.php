@@ -61,6 +61,8 @@ function display_sidebar() {
         'is_404',
         'is_front_page',
       	'is_page',
+        ['is_tax', ['give_forms']],
+        ['is_page_template', 'single-give-form.php'],
         ['is_page_template', 'template-custom.php'],
         ['is_page_template', 'template-user.php'],
 //       	['is_page_template', 'page.php']
